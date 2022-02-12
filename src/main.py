@@ -14,9 +14,9 @@ def main():
     x = x[::-1]
     y = y[::-1]
 
-    splitarray = arraysplitter(y, 4)
+    #splitarray = arraysplitter(y, 4)
     #Predict and Plot
-    #predict(x, y)
+    predict(x, y)
 
 if __name__ == "__main__":
     main()
