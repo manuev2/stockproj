@@ -8,7 +8,6 @@ def arraysplitter(array: list, subarrays: int):
     # Split array
     splitarray = [array[x:x + splitval] for x in range(0, len(array), splitval)]
     # Print arrays
-    for x in range(len(splitarray)):
-        print(splitarray[x])
-
+    # for x in range(len(splitarray)):
+    #     print(splitarray[x])
     return splitarray

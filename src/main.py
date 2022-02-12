@@ -4,6 +4,8 @@ from arraysplitter import arraysplitter
 def main():
     x = []
     y = []
+    splitnum = 15
+
     #Retrieve Data from Coinbase API
     data = dataextraction()
     #Loop through List and retrieve prices from Price objects
@@ -13,10 +15,11 @@ def main():
     #Reverse Data
     x = x[::-1]
     y = y[::-1]
-
-    splitarray = arraysplitter(y, 4)
+    #Split Data into sub arrays
+    valuesplit = arraysplitter(y, splitnum)
+    datesplit = arraysplitter(x, splitnum)
     #Predict and Plot
-    #predict(x, y)
+    predict(datesplit, valuesplit, splitnum)
 
 if __name__ == "__main__":
     main()
