@@ -1,3 +1,4 @@
 config.py
 coinbase_python3/
 __pycache__
+/.idea
