@@ -5,8 +5,8 @@ from plot import plot
 from sklearn.metrics import mean_squared_error, r2_score
 
 def predict(x, y, splitnum):
-    #Time in String to Time in Gregorian for easier calculations, 2d array for linear regression model
     for n in range(splitnum):
+        # Time in String to Time in Gregorian for easier calculations, 2d array for linear regression model
         gregorianX = [dateparser(x[n])]
         #Linear X and Y
         linearX = np.array(gregorianX).reshape((-1, 1))
