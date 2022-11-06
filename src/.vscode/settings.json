@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "\"terminal.integrated.fontFamily\": \"'SourceCodePro+Powerline+Awesome Regular'\""
+    ]
+}
