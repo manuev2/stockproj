@@ -11,5 +11,4 @@ def plot(x, y, scatterX, scatterY):
     plt.ylabel('price')
     # giving a title to my graph
     plt.title('ETH Historical Data')
-    # function to show the plot
-    plt.show()
+    return plt

@@ -23,4 +23,5 @@ def predict(x, y, splitnum):
         print("Mean squared error: %.2f" % mean_squared_error(y[n], predlinearY))
         # The coefficient of determination: 1 is perfect prediction
         print("Coefficient of determination: %.2f" % r2_score(y[n], predlinearY))
-        plot(linearX, predlinearY, gregorianX, y[n])
+        plt = plot(linearX, predlinearY, gregorianX, y[n])
+    plt.show()
