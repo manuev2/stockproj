@@ -4,7 +4,7 @@ from arraysplitter import arraysplitter
 def main():
     time = []
     price = []
-    splitnum = 1
+    splitnum = 4
 
     # Retrieve Data from Coinbase API
     data = dataextraction()
