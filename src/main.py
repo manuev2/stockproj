@@ -21,7 +21,7 @@ def main():
     # Split Data into sub arrays
     valuesplit = arraysplitter(price, splitnum)
     datesplit = arraysplitter(time, splitnum)
-
+    print("Test")
     # Predict and Plot
     predict(datesplit, valuesplit, splitnum)
 
