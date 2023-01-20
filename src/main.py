@@ -22,6 +22,7 @@ def main():
     valuesplit = arraysplitter(price, splitnum)
     datesplit = arraysplitter(time, splitnum)
     print("Test")
+    print("test2")
     # Predict and Plot
     predict(datesplit, valuesplit, splitnum)
 
